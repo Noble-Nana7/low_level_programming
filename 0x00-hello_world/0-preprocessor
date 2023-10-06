@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E filename -o outputfilename
+gcc -E CFILE -o c
