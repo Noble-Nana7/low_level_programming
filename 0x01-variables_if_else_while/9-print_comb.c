@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: This code printsall possible combinations of 
+ * Description: This code printsall possible combinations of
  * single-digit numbers. each spe by a space and a comma.
  * prints to stdout
  *
