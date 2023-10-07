@@ -16,7 +16,7 @@ int main(void)
 {
 	int n;
 	int lastDigit;
-	char word[] = "is less";
+	char word[] = "is less than";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -33,7 +33,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d is %d and %s than 6 and not 0\n", n, lastDigit, word);
+		printf("Last digit of %d is %d and %s 6 and not 0\n", n, lastDigit, word);
 	}
 	return (0);
 }
