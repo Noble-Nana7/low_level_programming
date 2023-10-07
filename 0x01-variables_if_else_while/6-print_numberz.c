@@ -16,10 +16,10 @@ int main(void)
 	int end = 9;
 
 	int i;
-	
+
 	for (i = start; i <= end; ++i)
 	{
-		putchar(i +'0');
+		putchar(i + '0');
 	}
 
 	putchar('\n');
