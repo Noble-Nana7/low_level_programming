@@ -18,11 +18,14 @@ int main(void)
 	int START = 65;
 	int END = 90;
 
-	for (int i = start; i <= end; ++i)
+	int i;
+	int a;
+
+	for (i = start; i <= end; ++i)
 	{
 		putchar(i);
 	}
-	for (int a = START; a <= END; ++a)
+	for (a = START; a <= END; ++a)
 	{
 		putchar(a);
 	}
