@@ -15,7 +15,9 @@ int main(void)
 	int start = 97;
 	int end = 122;
 
-	for (int i = start; i <= end; ++i)
+	int i;
+
+	for (i = start; i <= end; ++i)
 	{
 		putchar(i);
 	}
