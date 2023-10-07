@@ -19,7 +19,6 @@ int main(void)
 	for (i = start; i <= end; ++i)
 	{
 		putchar(i + '0');
-		
 		if (i < end)
 		{
 			putchar(',');
