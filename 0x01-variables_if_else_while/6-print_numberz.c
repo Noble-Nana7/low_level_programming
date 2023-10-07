@@ -19,7 +19,7 @@ int main(void)
 	
 	for (i = start; i <= end; ++i)
 	{
-		putchar(i);
+		putchar(i +'0');
 	}
 
 	putchar('\n');
