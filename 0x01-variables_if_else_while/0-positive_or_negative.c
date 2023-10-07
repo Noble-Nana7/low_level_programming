@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Description: This code will print out random
  * pseudo-numbers at every instance of
