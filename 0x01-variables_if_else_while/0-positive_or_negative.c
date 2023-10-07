@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* Main - Entry point
+/**
+ * Main - Entry point
  *
- * Description - This code will print out random
+ * Description: This code will print out random
  * pseudo-numbers at every instance of
  * n and obey each condition
  *
