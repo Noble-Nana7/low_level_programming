@@ -24,7 +24,7 @@ int main(void)
 	{
 		putchar(i + '0');
 	}
-	
+
 	for (j = hexAstart; j <= hexAend; ++j)
 	{
 		putchar(j);
