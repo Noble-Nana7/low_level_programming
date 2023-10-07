@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* This code will print out random
- * pseudo-numbers at every instance of 
+/* Main - Entry point
+ *
+ * Description - This code will print out random
+ * pseudo-numbers at every instance of
  * n and obey each condition
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -19,7 +23,7 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is zero\n", n);
 	}
