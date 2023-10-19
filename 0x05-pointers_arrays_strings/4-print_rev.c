@@ -6,7 +6,7 @@
  * @s: Pointer to the string.
  */
 
-void print_rev(char *s)	
+void print_rev(char *s)
 {
 	int length = 0;
 
@@ -22,6 +22,5 @@ void print_rev(char *s)
 		_putchar(*s);
 		length--;
 	}
-	
 	_putchar('\n');
 }
