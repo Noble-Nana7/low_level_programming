@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - testes functions that prints if interger is positive
  * or negative.
