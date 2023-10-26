@@ -22,17 +22,3 @@ void _puts_recursion(char *s)
 	/*caalling the func again to ptc the rest of the string*/
 	_puts_recursion(s +1);
 }
-
-/**
- * main - the entry point of this function
- * Return: Always 0 (Success)
- */
-
-int main(void)
-{
-	char str[] = "Nnaemeka will grow past this level";
-
-	_puts_recursion(str);
-
-	return 0;
-}
