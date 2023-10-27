@@ -39,5 +39,5 @@ int is_prime_recursive(int n, int divisor)
 		return (0);
 	}
 
-	return (is_prime_recurive(n, divisor + 1));
+	return (is_prime_recursive(n, divisor + 1));
 }
