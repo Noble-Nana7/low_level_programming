@@ -5,8 +5,8 @@
  * Return: always 0 (Success).
  */
 
-int main()
+int main(void)
 {
-	printf("This curent file is named: %s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
