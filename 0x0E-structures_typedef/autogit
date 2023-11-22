@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git add .
+
+echo "ENter:"
+read text
+
+git commit -m "$text"
+
+git push
